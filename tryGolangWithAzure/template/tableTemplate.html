@@ -1,0 +1,20 @@
+<h1>{{.PageTitle}}</h1>
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Job</th>
+        <th>Date Inserted</th>
+    </tr>
+    <tbody>
+        {{range .Biodatas}}
+        <tr>
+            <td>{{.ID}}</td>
+            <td>{{.Nama}}</td>
+            <td>{{.Job}}</td>
+            <td>{{.Date}}</td>
+        </tr>
+        {{end}}
+    </tbody>
+</table>
+<a href="/">Daftar lagi</a>

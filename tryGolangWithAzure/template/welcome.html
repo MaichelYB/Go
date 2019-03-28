@@ -1,0 +1,13 @@
+{{if .Success}}
+
+{{else}}
+<h1>Contact</h1>
+<form method="POST">
+    <label>Nama:</label><br />
+    <input type="text" name="name"><br />
+    <label>Job:</label><br />
+    <input type="text" name="job"><br />
+    <input type="submit">
+</form>
+<a href="/read">Baca data</a>
+{{end}}
